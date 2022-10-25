@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">TEApp</string>
+    <string name="abc">Abecedario</string>
+    <string name="colores">Colores</string>
+    <string name="senales">Señales</string>
+    <string name="comunicacion">Comunicación</string>
+    <string name="rojo">Rojo</string>
+    <string name="naranja">Naranja</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="morado">Morado</string>
+    <string name="Anterior">Anterior</string>
 </resources>
