@@ -202,15 +202,6 @@
                 android:backgroundTint="@color/light_red"
                 app:srcCompat="@drawable/z" />
 
-            <Button
-                android:id="@+id/button_regresar2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/teal_700"
-                android:onClick="Anterior"
-                android:text="@string/Anterior"
-                android:textSize="96sp" />
-
         </LinearLayout>
     </ScrollView>
 

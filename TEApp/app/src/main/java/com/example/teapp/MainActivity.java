@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,29 +17,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //Metodo boton colores
-    public void Colores(View view)
-    {
-        Intent colores = new Intent(this,ColorActivity.class);
-        startActivity(colores);
+    //Acciones de los botones del menu
+    public void Opciones(View view){
+        Intent intent = null;
+        switch (view.getId()){
+            case R.id.abc_Button: intent = new Intent(this,AbcActivity.class);
+                break;
+            case R.id.color_Button: intent = new Intent(this, ColorActivity.class);
+                break;
+            case R.id.senal_Button: intent = new Intent(this, SenalActivity.class);
+                break;
+            case R.id.cominicacion_Button: intent = new Intent(this, ComunicacionActivity.class);
+                break;
+        }
+        startActivity(intent);
     }
-
-    //Metodo boton ABC
-    public  void Abc(View view){
-        Intent abc = new Intent(this,AbcActivity.class);
-        startActivity(abc);
-    }
-
-    //Metodo boton senal
-    public void  Senal(View view){
-        Intent senal = new Intent(this,SenalActivity.class);
-        startActivity(senal);
-    }
-
-    //Metodo boton comunicacion
-    public void Comunicacion(View view){
-        Intent comunicacion = new Intent(this,ComunicacionActivity.class);
-        startActivity(comunicacion);
-    }
-
 }

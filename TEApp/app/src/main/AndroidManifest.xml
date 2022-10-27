@@ -13,57 +13,73 @@
         android:theme="@style/Theme.TEApp"
         tools:targetApi="31">
         <activity
+            android:name=".CuentaActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MoradoActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".ColorActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".AzulActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".ColorActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".VerdeActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".ColorActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".AmarilloActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".ColorActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".NaranjaActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".ColorActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".RojoActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".ColorActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".ComunicacionActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".SenalActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -77,14 +93,16 @@
         </activity>
         <activity
             android:name=".AbcActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".ColorActivity"
-            android:exported="false">
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

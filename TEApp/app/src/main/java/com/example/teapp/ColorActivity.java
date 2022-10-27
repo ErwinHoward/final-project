@@ -16,12 +16,6 @@ public class ColorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_color);
     }
 
-    //Metodo para el boton anterior
-    public void Anterior(View view){
-        Intent anterior = new Intent(this, MainActivity.class);
-        startActivity(anterior);
-    }
-
     //Metodo para botones Colores
     public void Colores(View view){
         Intent intent = null;

@@ -7,19 +7,6 @@
     tools:context=".ColorActivity">
 
     <Button
-        android:id="@+id/button_regresar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/teal_700"
-        android:onClick="Anterior"
-        android:text="@string/Anterior"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="16dp" />
-
-    <Button
         android:id="@+id/button_rojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
