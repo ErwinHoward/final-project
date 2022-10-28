@@ -4,7 +4,6 @@
 
     <item
         android:id="@+id/menu_config"
-        android:title="@string/config"
-        app:showAsAction="never" />
+        android:title="@string/config" />
 
 </menu>

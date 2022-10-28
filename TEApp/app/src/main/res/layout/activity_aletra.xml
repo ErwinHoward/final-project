@@ -19,4 +19,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071" />
 
+    <TextView
+        android:id="@+id/botonprueba2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Prueba"
+        android:text="rbol"
+        android:textSize="96sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <ImageView
+        android:id="@+id/botonprueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Prueba"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265"
+        app:srcCompat="@drawable/a128px" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
