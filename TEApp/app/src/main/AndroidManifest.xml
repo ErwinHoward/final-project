@@ -13,9 +13,19 @@
         android:theme="@style/Theme.TEApp"
         tools:targetApi="31">
         <activity
+            android:name=".NNletraActivity"
+            android:exported="false"
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ZletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -23,7 +33,8 @@
         <activity
             android:name=".YletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -31,7 +42,8 @@
         <activity
             android:name=".XletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -39,7 +51,8 @@
         <activity
             android:name=".WletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -47,7 +60,8 @@
         <activity
             android:name=".VletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -55,7 +69,8 @@
         <activity
             android:name=".UletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -63,7 +78,8 @@
         <activity
             android:name=".TletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -71,7 +87,8 @@
         <activity
             android:name=".SletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -79,7 +96,8 @@
         <activity
             android:name=".RletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -87,7 +105,8 @@
         <activity
             android:name=".QletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -95,7 +114,8 @@
         <activity
             android:name=".PletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -103,7 +123,8 @@
         <activity
             android:name=".OletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -111,7 +132,8 @@
         <activity
             android:name=".NletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -119,7 +141,8 @@
         <activity
             android:name=".MletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -127,7 +150,8 @@
         <activity
             android:name=".LletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -135,7 +159,8 @@
         <activity
             android:name=".KletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -143,7 +168,8 @@
         <activity
             android:name=".JletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -151,7 +177,8 @@
         <activity
             android:name=".IletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -159,7 +186,8 @@
         <activity
             android:name=".HletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -167,7 +195,8 @@
         <activity
             android:name=".GletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -175,7 +204,8 @@
         <activity
             android:name=".FletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -183,7 +213,8 @@
         <activity
             android:name=".EletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -191,7 +222,8 @@
         <activity
             android:name=".DletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -199,7 +231,8 @@
         <activity
             android:name=".CletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -207,7 +240,8 @@
         <activity
             android:name=".BletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -215,7 +249,8 @@
         <activity
             android:name=".CuentaActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -223,7 +258,8 @@
         <activity
             android:name=".MoradoActivity"
             android:exported="false"
-            android:parentActivityName=".ColorActivity">
+            android:parentActivityName=".ColorActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -231,7 +267,8 @@
         <activity
             android:name=".AzulActivity"
             android:exported="false"
-            android:parentActivityName=".ColorActivity">
+            android:parentActivityName=".ColorActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -239,7 +276,8 @@
         <activity
             android:name=".VerdeActivity"
             android:exported="false"
-            android:parentActivityName=".ColorActivity">
+            android:parentActivityName=".ColorActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -247,7 +285,8 @@
         <activity
             android:name=".AmarilloActivity"
             android:exported="false"
-            android:parentActivityName=".ColorActivity">
+            android:parentActivityName=".ColorActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -255,7 +294,8 @@
         <activity
             android:name=".NaranjaActivity"
             android:exported="false"
-            android:parentActivityName=".ColorActivity">
+            android:parentActivityName=".ColorActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -263,7 +303,8 @@
         <activity
             android:name=".RojoActivity"
             android:exported="false"
-            android:parentActivityName=".ColorActivity">
+            android:parentActivityName=".ColorActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -271,7 +312,8 @@
         <activity
             android:name=".ComunicacionActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -279,7 +321,8 @@
         <activity
             android:name=".SenalActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -287,7 +330,8 @@
         <activity
             android:name=".AletraActivity"
             android:exported="false"
-            android:parentActivityName=".AbcActivity">
+            android:parentActivityName=".AbcActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -295,7 +339,8 @@
         <activity
             android:name=".AbcActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -303,14 +348,16 @@
         <activity
             android:name=".ColorActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

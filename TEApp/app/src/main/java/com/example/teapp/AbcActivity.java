@@ -47,7 +47,7 @@ public class AbcActivity extends AppCompatActivity {
             case R.id.N_Button: intent = new Intent(this, NletraActivity.class);
                 break;
                 //NN = Ñ
-            case R.id.NN_Button: intent = new Intent(this, AletraActivity.class);
+            case R.id.NN_Button: intent = new Intent(this, NNletraActivity.class);
                 break;
             case R.id.O_Button: intent = new Intent(this, RletraActivity.class);
                 break;

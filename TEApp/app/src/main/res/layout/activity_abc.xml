@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_orange"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/a" />
+                app:srcCompat="@drawable/letra_a" />
 
             <ImageButton
                 android:id="@+id/B_Button"
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/b" />
+                app:srcCompat="@drawable/letra_b" />
 
             <ImageButton
                 android:id="@+id/C_Button"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/c" />
+                app:srcCompat="@drawable/letra_c" />
 
             <ImageButton
                 android:id="@+id/D_Button"
@@ -50,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/d" />
+                app:srcCompat="@drawable/letra_d" />
 
             <ImageButton
                 android:id="@+id/E_Button"
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/e" />
+                app:srcCompat="@drawable/letra_e" />
 
             <ImageButton
                 android:id="@+id/F_Button"
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_green"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/f" />
+                app:srcCompat="@drawable/letra_f" />
 
             <ImageButton
                 android:id="@+id/G_Button"
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_yellow"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/g" />
+                app:srcCompat="@drawable/letra_g" />
 
             <ImageButton
                 android:id="@+id/H_Button"
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:background="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/h" />
+                app:srcCompat="@drawable/letra_h" />
 
             <ImageButton
                 android:id="@+id/I_Button"
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/i" />
+                app:srcCompat="@drawable/letra_i" />
 
             <ImageButton
                 android:id="@+id/J_Button"
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_yellow"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/j" />
+                app:srcCompat="@drawable/letra_j" />
 
             <ImageButton
                 android:id="@+id/K_Button"
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_green"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/k" />
+                app:srcCompat="@drawable/letra_k" />
 
             <ImageButton
                 android:id="@+id/L_Button"
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/l" />
+                app:srcCompat="@drawable/letra_l" />
 
             <ImageButton
                 android:id="@+id/M_Button"
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/m" />
+                app:srcCompat="@drawable/letra_m" />
 
             <ImageButton
                 android:id="@+id/N_Button"
@@ -130,7 +130,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/n" />
+                app:srcCompat="@drawable/letra_n" />
 
             <ImageButton
                 android:id="@+id/NN_Button"
@@ -138,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/nn" />
+                app:srcCompat="@drawable/letra_nn" />
 
             <ImageButton
                 android:id="@+id/O_Button"
@@ -146,7 +146,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_green"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/o" />
+                app:srcCompat="@drawable/letra_o" />
 
             <ImageButton
                 android:id="@+id/P_Button"
@@ -154,7 +154,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/p" />
+                app:srcCompat="@drawable/letra_p" />
 
             <ImageButton
                 android:id="@+id/Q_Button"
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/q" />
+                app:srcCompat="@drawable/letra_q" />
 
             <ImageButton
                 android:id="@+id/R_Button"
@@ -170,7 +170,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_orange"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/r" />
+                app:srcCompat="@drawable/letra_r" />
 
             <ImageButton
                 android:id="@+id/S_Button"
@@ -178,7 +178,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/s" />
+                app:srcCompat="@drawable/letra_s" />
 
             <ImageButton
                 android:id="@+id/T_Button"
@@ -186,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_green"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/t" />
+                app:srcCompat="@drawable/letra_t" />
 
             <ImageButton
                 android:id="@+id/U_Button"
@@ -194,7 +194,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/u" />
+                app:srcCompat="@drawable/letra_u" />
 
             <ImageButton
                 android:id="@+id/V_Button"
@@ -202,7 +202,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/v" />
+                app:srcCompat="@drawable/letra_v" />
 
             <ImageButton
                 android:id="@+id/W_Button"
@@ -210,7 +210,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_blue"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/w" />
+                app:srcCompat="@drawable/letra_w" />
 
             <ImageButton
                 android:id="@+id/X_Button"
@@ -218,7 +218,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_orange"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/x" />
+                app:srcCompat="@drawable/letra_x" />
 
             <ImageButton
                 android:id="@+id/Y_Button"
@@ -226,7 +226,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_green"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/y" />
+                app:srcCompat="@drawable/letra_y" />
 
             <ImageButton
                 android:id="@+id/Z_Button"
@@ -234,7 +234,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/light_red"
                 android:onClick="Botonabc"
-                app:srcCompat="@drawable/z" />
+                app:srcCompat="@drawable/letra_z" />
 
         </LinearLayout>
     </ScrollView>

@@ -6,82 +6,70 @@
     android:layout_height="match_parent"
     tools:context=".ColorActivity">
 
-    <Button
-        android:id="@+id/button_rojo"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/red"
-        android:onClick="Colores"
-        android:text="@string/rojo"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.026"
-        tools:layout_editor_absoluteX="-54dp" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button_naranja"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/orange"
-        android:onClick="Colores"
-        android:text="@string/naranja"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_rojo"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/button_verde"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/green"
-        android:onClick="Colores"
-        android:text="@string/verde"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_amarillo"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="-16dp" />
+            <Button
+                android:id="@+id/button_rojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_red"
+                android:onClick="Colores"
+                android:text="@string/rojo"
+                android:textSize="96sp" />
 
-    <Button
-        android:id="@+id/button_morado"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple"
-        android:onClick="Colores"
-        android:text="@string/morado"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_azul"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="16dp" />
+            <Button
+                android:id="@+id/button_naranja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_orange"
+                android:onClick="Colores"
+                android:text="@string/naranja"
+                android:textSize="96sp" />
 
-    <Button
-        android:id="@+id/button_azul"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/blue"
-        android:onClick="Colores"
-        android:text="@string/azul"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_verde"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="-16dp" />
+            <Button
+                android:id="@+id/button_amarillo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_yellow"
+                android:onClick="Colores"
+                android:text="@string/amarillo"
+                android:textSize="96sp" />
 
-    <Button
-        android:id="@+id/button_amarillo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/yellow"
-        android:onClick="Colores"
-        android:text="@string/amarillo"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_naranja"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp" />
+            <Button
+                android:id="@+id/button_verde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_green"
+                android:onClick="Colores"
+                android:text="@string/verde"
+                android:textSize="96sp" />
+
+            <Button
+                android:id="@+id/button_azul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_blue"
+                android:onClick="Colores"
+                android:text="@string/azul"
+                android:textSize="96sp" />
+
+            <Button
+                android:id="@+id/button_morado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/light_purple"
+                android:onClick="Colores"
+                android:text="@string/morado"
+                android:textSize="96sp" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
