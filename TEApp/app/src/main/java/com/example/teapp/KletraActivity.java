@@ -16,22 +16,22 @@ public class KletraActivity extends AppCompatActivity {
     public void Sonidoletra_k(View view){
         switch (view.getId()) {
             case R.id.Opc1:
-                MediaPlayer opc1mp = MediaPlayer.create(this, R.raw.caballo);
+                MediaPlayer opc1mp = MediaPlayer.create(this, R.raw.kilo);
                 opc1mp.start();
                 break;
-            case R.id.Opc2: MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.carro);
+            case R.id.Opc2: MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.kiwi);
                 opc2mp.start();
                 break;
-            case R.id.Opc3: MediaPlayer opc3mp = MediaPlayer.create(this,R.raw.cabeza);
+            case R.id.Opc3: MediaPlayer opc3mp = MediaPlayer.create(this,R.raw.kiosco);
                 opc3mp.start();
                 break;
-            case R.id.Opc4: MediaPlayer opc4mp = MediaPlayer.create(this,R.raw.casa);
+            case R.id.Opc4: MediaPlayer opc4mp = MediaPlayer.create(this,R.raw.koala);
                 opc4mp.start();
                 break;
-            case R.id.Opc5: MediaPlayer opc5mp = MediaPlayer.create(this,R.raw.camisa);
+            case R.id.Opc5: MediaPlayer opc5mp = MediaPlayer.create(this,R.raw.karate);
                 opc5mp.start();
                 break;
-            case R.id.Opc6: MediaPlayer opc6mp = MediaPlayer.create(this,R.raw.conejo);
+            case R.id.Opc6: MediaPlayer opc6mp = MediaPlayer.create(this,R.raw.ketchup);
                 opc6mp.start();
                 break;
         }

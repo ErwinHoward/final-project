@@ -6,5 +6,116 @@
     android:layout_height="match_parent"
     android:background="@color/light_blue"
     tools:context=".AzulActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/azul"
+                android:textSize="60sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:id="@+id/Opc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="257dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="@string/azul_tiburon"
+                        android:textSize="48sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/manzana" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Opc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="279dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="@string/azul_nube"
+                        android:textSize="48sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tomate" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Opc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="276dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="@string/azul_agua"
+                        android:textSize="48sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/corazon" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/Opc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="249dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|center_vertical"
+                        android:text="@string/azul_ballena"
+                        android:textSize="48sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/fresa" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

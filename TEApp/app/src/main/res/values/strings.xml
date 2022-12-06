@@ -196,5 +196,28 @@
     <string name="zapato">apato</string>
     <string name="zanahoria">anahoria</string>
     <string name="zopilote">opilote</string>
-
+    <string name="rojo_manzana">Manzana</string>
+    <string name="rojo_tomate">Tomate</string>
+    <string name="rojo_corazon">Corazón</string>
+    <string name="rojo_fresa">Fresa</string>
+    <string name="naranja_naranja">Naranja</string>
+    <string name="naranja_zanahoria">Zanahoria</string>
+    <string name="naranja_zorro">Zorro</string>
+    <string name="naranja_carro">Carro</string>
+    <string name="amarillo_sol">Sol</string>
+    <string name="amarillo_pato">Pato</string>
+    <string name="amarillo_platano">Platano</string>
+    <string name="amarillo_minion">Minion</string>
+    <string name="verde_rana">Rana</string>
+    <string name="verde_brocoli">Brocoli</string>
+    <string name="verde_aguacate">Aguacate</string>
+    <string name="verde_tortuga">Tortuga</string>
+    <string name="azul_tiburon">Tiburon</string>
+    <string name="azul_nube">Nube</string>
+    <string name="azul_agua">agua</string>
+    <string name="azul_ballena">Ballena</string>
+    <string name="morado_uva">Uva</string>
+    <string name="morado_globo">Tortuga</string>
+    <string name="morado_mono">Moño</string>
+    <string name="morado_pulpo">Pulpo</string>
 </resources>

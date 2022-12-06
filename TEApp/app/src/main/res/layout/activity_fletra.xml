@@ -222,6 +222,7 @@
                         android:layout_weight="1"
                         android:background="@color/light_purple"
                         app:srcCompat="@drawable/aguacate" />
+
                 </TableRow>
 
             </TableLayout>
