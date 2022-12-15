@@ -55,7 +55,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@color/light_blue"
-                        app:srcCompat="@drawable/aguacate" />
+                        app:srcCompat="@drawable/yegua" />
                 </TableRow>
 
                 <TableRow
@@ -88,7 +88,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@color/light_green"
-                        app:srcCompat="@drawable/aguacate" />
+                        app:srcCompat="@drawable/yoyo" />
                 </TableRow>
 
                 <TableRow
@@ -121,7 +121,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@color/light_red"
-                        app:srcCompat="@drawable/aguacate" />
+                        app:srcCompat="@drawable/yucatan" />
                 </TableRow>
 
                 <TableRow
@@ -154,7 +154,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@color/light_orange"
-                        app:srcCompat="@drawable/aguacate" />
+                        app:srcCompat="@drawable/yate" />
                 </TableRow>
 
                 <TableRow
@@ -187,7 +187,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@color/light_yellow"
-                        app:srcCompat="@drawable/aguacate" />
+                        app:srcCompat="@drawable/yogurt" />
                 </TableRow>
 
                 <TableRow
@@ -220,7 +220,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@color/light_purple"
-                        app:srcCompat="@drawable/aguacate" />
+                        app:srcCompat="@drawable/yeso" />
                 </TableRow>
 
             </TableLayout>

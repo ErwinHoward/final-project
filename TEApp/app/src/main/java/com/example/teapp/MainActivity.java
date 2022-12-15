@@ -3,6 +3,7 @@ package com.example.teapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -35,5 +36,25 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         startActivity(intent);
+    }
+    public void Sonido_opciones(View view){
+        switch (view.getId()) {
+            case R.id.senales:
+                MediaPlayer opc1mp = MediaPlayer.create(this, R.raw.dado);
+                opc1mp.start();
+                break;
+            case R.id.colores:
+                MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.durazno);
+                opc2mp.start();
+                break;
+            case R.id.comunicacion:
+                MediaPlayer opc3mp = MediaPlayer.create(this,R.raw.dedos);
+                opc3mp.start();
+                break;
+            case R.id.abc:
+                MediaPlayer opc4mp = MediaPlayer.create(this,R.raw.dinosaurio);
+                opc4mp.start();
+                break;
+        }
     }
 }

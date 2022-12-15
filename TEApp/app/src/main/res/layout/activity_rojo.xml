@@ -32,7 +32,8 @@
                 <TableRow
                     android:id="@+id/Opc1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:onClick="Sonido_rojo">
 
                     <TextView
                         android:id="@+id/textView"
@@ -54,7 +55,8 @@
                 <TableRow
                     android:id="@+id/Opc2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:onClick="Sonido_rojo">
 
                     <TextView
                         android:id="@+id/textView2"
@@ -76,7 +78,8 @@
                 <TableRow
                     android:id="@+id/Opc3"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:onClick="Sonido_rojo">
 
                     <TextView
                         android:id="@+id/textView3"
@@ -98,7 +101,8 @@
                 <TableRow
                     android:id="@+id/Opc4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:onClick="Sonido_rojo">
 
                     <TextView
                         android:id="@+id/textView4"
