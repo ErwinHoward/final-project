@@ -224,4 +224,11 @@
     <string name="nino_durmiendo">El niño esta durmiendo</string>
     <string name="ninos_dientes">El niño cepilla sus dientes</string>
     <string name="ninos_tomando">Los niños estan tomando agua</string>
+    <string name="cortadura_nino">Los niños estan tomando agua</string>
+    <string name="cortando_pan">Los niños estan tomando agua</string>
+    <string name="cuidado_fuego">Los niños estan tomando agua</string>
+    <string name="nadando">Los niños estan tomando agua</string>
+    <string name="nino_ahogandose">Los niños estan tomando agua</string>
+    <string name="peligro_electricidad">Los niños estan tomando agua</string>
+    <string name="cuidado_quemadura">Los niños estan tomando agua</string>
 </resources>

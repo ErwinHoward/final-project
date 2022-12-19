@@ -47,7 +47,7 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/manzana" />
+                        app:srcCompat="@drawable/sol" />
                 </TableRow>
 
                 <TableRow
@@ -70,7 +70,7 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/tomate" />
+                        app:srcCompat="@drawable/pato" />
                 </TableRow>
 
                 <TableRow
@@ -93,7 +93,7 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/corazon" />
+                        app:srcCompat="@drawable/minion" />
                 </TableRow>
 
                 <TableRow
@@ -116,7 +116,7 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/fresa" />
+                        app:srcCompat="@drawable/platano" />
                 </TableRow>
 
             </TableLayout>

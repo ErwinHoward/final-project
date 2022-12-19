@@ -20,7 +20,7 @@ public class AletraActivity extends AppCompatActivity {
                 MediaPlayer opc1mp = MediaPlayer.create(this, R.raw.avion);
             opc1mp.start();
                 break;
-            case R.id.Opc2: MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.elefante);
+            case R.id.Opc2: MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.arbol);
             opc2mp.start();
                 break;
             case R.id.Opc3: MediaPlayer opc3mp = MediaPlayer.create(this,R.raw.agua);

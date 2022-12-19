@@ -19,7 +19,7 @@
                 android:id="@+id/imageView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/light_green"
+                android:background="@color/light_red"
                 app:srcCompat="@drawable/letra_c" />
 
             <TableLayout
@@ -30,6 +30,7 @@
                     android:id="@+id/Opc1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/light_blue"
                     android:onClick="Sonidoletra_c">
 
                     <ImageView
@@ -37,7 +38,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@color/light_blue"
                         app:srcCompat="@drawable/c_uno" />
 
                     <TextView
@@ -45,7 +45,6 @@
                         android:layout_width="257dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_blue"
                         android:gravity="center_vertical"
                         android:text="@string/caballo"
                         android:textSize="48sp" />
@@ -55,7 +54,6 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_blue"
                         app:srcCompat="@drawable/caballo" />
                 </TableRow>
 
@@ -63,6 +61,7 @@
                     android:id="@+id/Opc2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/light_green"
                     android:onClick="Sonidoletra_c">
 
                     <ImageView
@@ -70,7 +69,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@color/light_green"
                         app:srcCompat="@drawable/c_dos" />
 
                     <TextView
@@ -78,7 +76,6 @@
                         android:layout_width="279dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_green"
                         android:gravity="center_vertical"
                         android:text="@string/carro"
                         android:textSize="48sp" />
@@ -88,7 +85,6 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_green"
                         app:srcCompat="@drawable/carro" />
                 </TableRow>
 
@@ -96,6 +92,7 @@
                     android:id="@+id/Opc3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/light_green"
                     android:onClick="Sonidoletra_c">
 
                     <ImageView
@@ -103,7 +100,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@color/light_red"
                         app:srcCompat="@drawable/c_tres" />
 
                     <TextView
@@ -111,7 +107,6 @@
                         android:layout_width="276dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_red"
                         android:gravity="center_vertical"
                         android:text="@string/cabeza"
                         android:textSize="48sp" />
@@ -121,7 +116,6 @@
                         android:layout_width="144dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_red"
                         app:srcCompat="@drawable/cabeza" />
                 </TableRow>
 
@@ -129,6 +123,7 @@
                     android:id="@+id/Opc4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/light_orange"
                     android:onClick="Sonidoletra_c">
 
                     <ImageView
@@ -136,7 +131,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@color/light_orange"
                         app:srcCompat="@drawable/c_cuatro" />
 
                     <TextView
@@ -144,7 +138,6 @@
                         android:layout_width="249dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_orange"
                         android:gravity="center_vertical"
                         android:text="@string/casa"
                         android:textSize="48sp" />
@@ -154,7 +147,6 @@
                         android:layout_width="150dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_orange"
                         app:srcCompat="@drawable/casa" />
                 </TableRow>
 
@@ -162,6 +154,7 @@
                     android:id="@+id/Opc5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/light_yellow"
                     android:onClick="Sonidoletra_c">
 
                     <ImageView
@@ -169,7 +162,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@color/light_yellow"
                         app:srcCompat="@drawable/c_cinco" />
 
                     <TextView
@@ -177,7 +169,6 @@
                         android:layout_width="251dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_yellow"
                         android:gravity="center_vertical"
                         android:text="@string/camisa"
                         android:textSize="60sp" />
@@ -187,7 +178,6 @@
                         android:layout_width="162dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_yellow"
                         app:srcCompat="@drawable/camisa" />
                 </TableRow>
 
@@ -195,6 +185,7 @@
                     android:id="@+id/Opc6"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@color/light_purple"
                     android:onClick="Sonidoletra_c">
 
                     <ImageView
@@ -202,7 +193,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:background="@color/light_purple"
                         app:srcCompat="@drawable/c_seis" />
 
                     <TextView
@@ -210,7 +200,6 @@
                         android:layout_width="184dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_purple"
                         android:gravity="center_vertical"
                         android:text="@string/conejo"
                         android:textSize="60sp" />
@@ -220,7 +209,6 @@
                         android:layout_width="125dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@color/light_purple"
                         app:srcCompat="@drawable/conejo" />
                 </TableRow>
 
