@@ -40,19 +40,19 @@ public class MainActivity extends AppCompatActivity {
     public void Sonido_opciones(View view){
         switch (view.getId()) {
             case R.id.senales:
-                MediaPlayer opc1mp = MediaPlayer.create(this, R.raw.dado);
+                MediaPlayer opc1mp = MediaPlayer.create(this, R.raw.opcion_senales);
                 opc1mp.start();
                 break;
             case R.id.colores:
-                MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.durazno);
+                MediaPlayer opc2mp = MediaPlayer.create(this,R.raw.opcion_colores);
                 opc2mp.start();
                 break;
             case R.id.comunicacion:
-                MediaPlayer opc3mp = MediaPlayer.create(this,R.raw.dedos);
+                MediaPlayer opc3mp = MediaPlayer.create(this,R.raw.opcion_comunicacion);
                 opc3mp.start();
                 break;
             case R.id.abc:
-                MediaPlayer opc4mp = MediaPlayer.create(this,R.raw.dinosaurio);
+                MediaPlayer opc4mp = MediaPlayer.create(this,R.raw.opcion_abecedario);
                 opc4mp.start();
                 break;
         }

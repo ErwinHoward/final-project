@@ -16,123 +16,156 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/textSenal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:onClick="Sonido_senal"
                 android:text="@string/senales"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView18"
+                android:id="@+id/imageCortadura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_blue"
+                android:onClick="Sonido_senal"
                 app:srcCompat="@drawable/cortadura" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textCortadura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_blue"
                 android:gravity="center"
+                android:onClick="Sonido_senal"
                 android:text="@string/cortadura_nino"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView19"
+                android:id="@+id/imageCortando"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_red"
+                android:onClick="Sonido_senal"
                 app:srcCompat="@drawable/cortando_pan" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/textCortando"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_red"
                 android:gravity="center"
-                android:text="@string/cortadura_nino"
+                android:onClick="Sonido_senal"
+                android:text="@string/cortando_pan"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView20"
+                android:id="@+id/imageFuego"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_orange"
+                android:onClick="Sonido_senal"
                 app:srcCompat="@drawable/fuego" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/textFuego"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_orange"
                 android:gravity="center"
-                android:text="@string/cortadura_nino"
+                android:onClick="Sonido_senal"
+                android:text="@string/cuidado_fuego"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView22"
+                android:id="@+id/imageNadando"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_yellow"
+                android:onClick="Sonido_senal"
                 app:srcCompat="@drawable/nadando" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/textNadando"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_yellow"
                 android:gravity="center"
-                android:text="@string/cortadura_nino"
+                android:onClick="Sonido_senal"
+                android:text="@string/no_alberca"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView23"
+                android:id="@+id/imageAhogandose"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_purple"
+                android:onClick="Sonido_senal"
                 app:srcCompat="@drawable/nino_ahogandose" />
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/textAhogandose"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_purple"
                 android:gravity="center"
-                android:text="@string/cortadura_nino"
+                android:onClick="Sonido_senal"
+                android:text="@string/nino_ahogandose"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView24"
+                android:id="@+id/imageEnchufes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_orange"
+                android:onClick="Sonido_senal"
+                app:srcCompat="@drawable/no_enchufes" />
+
+            <TextView
+                android:id="@+id/textEnchufes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/light_orange"
+                android:gravity="center"
+                android:onClick="Sonido_senal"
+                android:text="@string/no_enchufes"
+                android:textSize="48sp" />
+
+            <ImageView
+                android:id="@+id/imageElectrocutas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_green"
-                app:srcCompat="@drawable/peligro_electricidad" />
+                android:onClick="Sonido_senal"
+                app:srcCompat="@drawable/si_electrocutas" />
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/textElectrocutas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_green"
                 android:gravity="center"
-                android:text="@string/cortadura_nino"
+                android:onClick="Sonido_senal"
+                android:text="@string/si_electrocutas"
                 android:textSize="48sp" />
 
             <ImageView
-                android:id="@+id/imageView21"
+                android:id="@+id/imageQuemadura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_blue"
+                android:onClick="Sonido_senal"
                 app:srcCompat="@drawable/quemadura" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/textQuemadura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/light_blue"
                 android:gravity="center"
-                android:text="@string/cortadura_nino"
+                android:onClick="Sonido_senal"
+                android:text="@string/cuidado_quemadura"
                 android:textSize="48sp" />
         </LinearLayout>
     </ScrollView>
