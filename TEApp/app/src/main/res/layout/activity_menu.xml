@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Nombremenu_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Hola! Usuario"
+                android:textSize="60sp"
+                android:layout_weight="1"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/comunicacion"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:onClick="Sonido_opciones"
+                        android:text="@string/comunicacion"
+                        android:textSize="34sp" />
+
+                    <ImageButton
+                        android:id="@+id/cominicacion_Button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/light_green"
+                        android:contentDescription="@string/comunicacion"
+                        android:onClick="Opciones"
+                        app:srcCompat="@drawable/comunicacion" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/abc_Button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/light_yellow"
+                        android:contentDescription="@string/abc"
+                        android:onClick="Opciones"
+                        app:srcCompat="@drawable/alfabeto" />
+
+                    <TextView
+                        android:id="@+id/abc"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:onClick="Sonido_opciones"
+                        android:text="@string/abc"
+                        android:textSize="34sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/colores"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:onClick="Sonido_opciones"
+                        android:text="@string/colores"
+                        android:textSize="34sp" />
+
+                    <ImageButton
+                        android:id="@+id/color_Button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/light_red"
+                        android:contentDescription="@string/colores"
+                        android:onClick="Opciones"
+                        app:srcCompat="@drawable/lapices" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/senal_Button"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/light_purple"
+                        android:contentDescription="@string/senales"
+                        android:onClick="Opciones"
+                        app:srcCompat="@drawable/pregunta" />
+
+                    <TextView
+                        android:id="@+id/senales"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:onClick="Sonido_opciones"
+                        android:text="@string/senales"
+                        android:textSize="34sp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

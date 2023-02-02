@@ -75,5 +75,6 @@ public class AbcActivity extends AppCompatActivity {
                 break;
         }
         startActivity(intent);
+        finish();
     }
 }

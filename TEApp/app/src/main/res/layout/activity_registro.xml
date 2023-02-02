@@ -7,13 +7,16 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="20dp"
         android:layout_weight="1"
-        android:src="@drawable/logo"/>
+        android:gravity="center"
+        android:text="@string/crear_cuenta"
+        android:textSize="48sp" />
     <EditText
-        android:id="@+id/Usertext"
+        android:id="@+id/RegUser"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -21,24 +24,30 @@
         android:hint="Usuario"
         android:inputType="textEmailAddress"/>
     <EditText
-        android:id="@+id/Passwordtext"
+        android:id="@+id/RegPassword"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:layout_weight="1"
         android:hint="Password"
         android:inputType="textPassword"/>
-
-    <Button
-        android:id="@+id/Iniciar_button"
+    <EditText
+        android:id="@+id/RegUsername"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:layout_weight="1"
-        android:backgroundTint="@color/light_blue"
-        android:text="@string/iniciar"
-        android:textSize="48sp"
-        android:textStyle="bold" />
+        android:hint="Nombre"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/RegUserApe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:hint="Apellido"
+        android:inputType="textPersonName"/>
 
     <Button
         android:id="@+id/Crear_button"
@@ -46,8 +55,19 @@
         android:layout_height="match_parent"
         android:layout_margin="20dp"
         android:layout_weight="1"
-        android:backgroundTint="@color/light_red"
+        android:backgroundTint="@color/light_blue"
         android:text="@string/crear_cuenta"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Cancelar_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/light_red"
+        android:text="@string/cancelar"
         android:textSize="48sp"
         android:textStyle="bold" />
 

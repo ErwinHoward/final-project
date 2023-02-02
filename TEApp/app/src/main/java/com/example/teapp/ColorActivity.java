@@ -34,6 +34,7 @@ public class ColorActivity extends AppCompatActivity {
             break;
         }
         startActivity(intent);
+        finish();
     }
 
 }

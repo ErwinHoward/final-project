@@ -4,6 +4,9 @@
 
     <item
         android:id="@+id/menu_config"
-        android:title="@string/config" />
+        android:title="@string/cuenta" />
+    <item
+        android:id="@+id/menu_salir"
+        android:title="@string/salir" />
 
 </menu>

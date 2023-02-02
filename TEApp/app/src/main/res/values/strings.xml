@@ -10,7 +10,6 @@
     <string name="verde">Verde</string>
     <string name="azul">Azul</string>
     <string name="morado">Morado</string>
-    <string name="config">Configuración</string>
     <string name="letraa">Letra "A"</string>
     <string name="letrab">Letra "B"</string>
     <string name="letrac">Letra "C"</string>
@@ -237,4 +236,13 @@
     <string name="cuidado_quemadura">Te quemas si te acercas a la estufa</string>
     <string name="no_enchufes">No tocar los enchufes de la luz</string>
     <string name="si_electrocutas">Si tocas los enchufes de la luz te electrocutas</string>
+    <string name="nombre_user">Nombre usuario:</string>
+    <string name="password">Contraseña:</string>
+    <string name="passworddos">Confirmar contraseña:</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="iniciar">iniciar sesión</string>
+    <string name="menu">Menu</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="editar">Editar</string>
+    <string name="salir">Salir</string>
 </resources>
